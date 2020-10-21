@@ -7480,6 +7480,8 @@ h1, h2, h3, h4, h5,
     letter-spacing: 4px; }
 
 .owl-carousel {
+  touch-action: auto;
+-ms-touch-action: auto;
   position: relative; }
   .owl-carousel .owl-item {
     opacity: .4; }
