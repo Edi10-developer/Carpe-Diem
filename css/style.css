@@ -7490,7 +7490,9 @@ h1, h2, h3, h4, h5,
 -ms-touch-action: auto;
     opacity: .4; }
     .owl-carousel .owl-item.active {
-      opacity: 1; }
+      opacity: 1;
+      touch-action: auto;
+      -ms-touch-action: auto; }
   .owl-carousel .owl-nav {
     position: absolute;
     top: 50%;
