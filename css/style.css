@@ -63,7 +63,9 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff; 
-  overflow:visible;}
+  overflow:visible;
+  touch-action: auto;
+  -ms-touch-action: auto;}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -7531,7 +7533,9 @@ h1, h2, h3, h4, h5,
       background-position: center center;
       height: 750px;
       position: relative;
-      z-index: 0; }
+      z-index: 0; 
+      touch-action: auto;
+     -ms-touch-action: auto;}
       .owl-carousel.home-slider .slider-item .overlay {
         position: absolute;
         top: 0;
