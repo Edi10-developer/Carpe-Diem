@@ -7545,7 +7545,9 @@ h1, h2, h3, h4, h5,
         left: 0;
         right: 0;
         background: #000;
-        opacity: .5; }
+        opacity: .5; 
+        touch-action: auto;
+        -ms-touch-action: auto;}
       .owl-carousel.home-slider .slider-item .slider-text {
         color: #fff;
         height: 750px;
