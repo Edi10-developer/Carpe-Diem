@@ -7276,9 +7276,7 @@ body {
   font-weight: 300;
   color: gray;
   background: url(../images/bg_4.jpg) no-repeat fixed;
-  background-size: cover; 
-  touch-action: auto;
-  -ms-touch-action: auto;}
+  background-size: cover; }
   body.menu-show {
     overflow: hidden;
     position: fixed;
@@ -7482,14 +7480,14 @@ h1, h2, h3, h4, h5,
     letter-spacing: 4px; }
 
 .owl-carousel {
-  position: relative; }
+  position: relative; 
+  touch-action: auto;
+  -ms-touch-action: auto;}
   .owl-carousel .owl-item {
     touch-action: auto;
 -ms-touch-action: auto;
     opacity: .4; }
     .owl-carousel .owl-item.active {
-      touch-action: auto;
--ms-touch-action: auto;
       opacity: 1; }
   .owl-carousel .owl-nav {
     position: absolute;
@@ -7497,8 +7495,6 @@ h1, h2, h3, h4, h5,
     width: 100%; }
     .owl-carousel .owl-nav .owl-prev,
     .owl-carousel .owl-nav .owl-next {
-      touch-action: auto;
--ms-touch-action: auto;
       position: absolute;
       -webkit-transform: translateY(-50%);
       -ms-transform: translateY(-50%);
