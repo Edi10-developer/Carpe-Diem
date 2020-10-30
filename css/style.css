@@ -9009,3 +9009,12 @@ textarea.form-control {
 footer.row{
   margin-top: 20px !important;
 }
+
+.ing{
+  color: rgba(250, 197, 100,  .6);
+}
+
+.ing h3{
+  color: rgb(250, 197, 100);
+}
+
