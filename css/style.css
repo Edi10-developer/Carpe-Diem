@@ -9018,3 +9018,9 @@ footer.row{
   color: rgb(250, 197, 100);
 }
 
+
+.icon-facebook{
+  display: block;
+  margin: 0 auto !;
+  text-align: center !important;
+}
