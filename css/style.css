@@ -9033,7 +9033,7 @@ footer.row{
 
 @media (max-width: 575.98px) {
   .product_img{
-    width: 350px !important; 
+    width: 90% !important; 
     height: 230px; 
     border: 2px solid rgb(250, 197, 100);
   }
