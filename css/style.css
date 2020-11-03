@@ -9042,3 +9042,23 @@ footer.row{
 .article_img{
   border: 2px solid rgb(250, 197, 100);
 }
+
+.announcement-bar{
+  width: 100%; 
+  display: block; 
+  height: 70px; 
+  background-color: red; 
+  color: white; 
+  text-align: center; 
+  font-size: 15px; 
+  font-weight: 800;
+  padding: 20px ;
+  letter-spacing: 2px;;
+}
+
+
+@media (max-width: 575.98px) {
+  .announcement-bar{
+    height: 80px;
+  }
+}
