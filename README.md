@@ -1,5 +1,5 @@
 # Carpe-Diem
-This is a italian pizzeria website 
+This is a italian pizzeria website coded in Vanilla JavaScript
 
 ### [Live Site](https://carpediemfontana.netlify.app)
 
